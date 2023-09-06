@@ -1,0 +1,23 @@
+application:
+  name: itemservice
+  message: Configured by Local Server
+server:
+  port: 8083
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/?user=root/items #your db URL here, keep /items
+    username: root #your username here, probably also probably username@dbserver required
+    password: Juli2811! #your pw here
+  activemq:
+    broker-url: tcp://localhost:61616
+    user: admin
+    password: admin
+  jpa:
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: true
+        use_sql_comments: true
+    hibernate:
+      ddl-auto: update
