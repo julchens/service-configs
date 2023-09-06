@@ -6,7 +6,7 @@ server:
 spring:
   datasource:
     driverClassName: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/?user=root/items #your db URL here, keep /items
+    url: jdbc:mysql://localhost:3306/items #your db URL here, keep /items
     username: root #your username here, probably also probably username@dbserver required
     password: Juli2811! #your pw here
   activemq:

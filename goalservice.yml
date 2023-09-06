@@ -10,7 +10,7 @@ spring:
     password: admin
   datasource:
     driverClassName: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/?user=root/goals #your db URL here, keep /goals
+    url: jdbc:mysql://localhost:3306/goals #your db URL here, keep /goals
     username: root #your username here, probably also probably username@dbserver required
     password: Juli2811! #your password here
   jpa:
