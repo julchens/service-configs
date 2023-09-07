@@ -9,7 +9,7 @@ spring:
     url: jdbc:mysql://localhost:3306/items #your db URL here, keep /items
     username: root #your username here, probably also probably username@dbserver required
     password: Juli2811! #your pw here
-  activemq:
+  rabbitmq:
     broker-url: amqp://localhost:5672
     user: admin
     password: admin
