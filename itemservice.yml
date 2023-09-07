@@ -10,7 +10,7 @@ spring:
     username: root #your username here, probably also probably username@dbserver required
     password: Juli2811! #your pw here
   activemq:
-    broker-url: tcp://localhost:61616
+    broker-url: amqp://localhost:5672
     user: admin
     password: admin
   jpa:

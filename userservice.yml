@@ -5,7 +5,7 @@ server:
   port: 8082
 spring:
   activemq:
-    broker-url: tcp://localhost:61616
+    broker-url: amqp://localhost:5672
     user: admin
     password: admin
   datasource:
