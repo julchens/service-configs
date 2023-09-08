@@ -4,8 +4,8 @@ application:
 server:
   port: 8082
 spring:
-  rabbitmq:
-    broker-url: amqp://localhost:5672
+  activemq:
+    broker-url: tcp://localhost:8161
     user: admin
     password: admin
   datasource:
